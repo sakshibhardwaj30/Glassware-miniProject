@@ -6,6 +6,7 @@ body{
 body{
     background-image: url(../images/texture1.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 nav {
     position: fixed;
