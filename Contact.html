@@ -11,7 +11,7 @@
 <body>
     <section class="contact">
         <div class="content">
-            <h1>Contact Us</h1>
+            <h1 style="color: white; font-size: larger;">Get In Touch</h1>
             <p>this is my website. I am working on it.Please have a view of my website.this is my website. 
                 I am working on it.Please have a view of my website.
             </p>
@@ -44,7 +44,7 @@
                     </div>
                 </div>
             </div>
-            <div class="contactForm">
+            <!-- <div class="contactForm">
                 <form>
                     <h2>Send Message</h2>
                     <div class="inputBox">
@@ -52,7 +52,7 @@
                         <span>Full Name</span>
                     </div>
                     <div class="inputBox">
-                        <input type="text" name="" required="required">
+                         <input type="text" name="" required="required">
                         <span>Email</span>
                     </div>
                     <div class="inputBox">
@@ -63,8 +63,50 @@
                         <input type="submit" name="" value="Send">
                     </div>
                 </form>
+            </div> -->
+            <div class="container1">
+                <div class="header1">
+                    <h1 style="color: white;">Login To Your Account To Reach Us!</h1>
+                </div>
+                <form class="form" id="form">
+                    <div class="form-control1">
+                        <label for="user">Username</label>
+                    <input type="text" id="user" placeholder="Enter your user name">           
+                    <i class="fa fa-check-circle"></i>
+                    <i class="fa fa-exclamation-circle"></i>
+                    <small>Error Msg</small>
+                </div>
+                <div class="form-control1">
+                    <label for="email">Email ID</label>
+                    <input type="text" id="email" placeholder="Enter your email address">
+                    <i class="fa fa-check-circle"></i>
+                    <i class="fa fa-exclamation-circle"></i>
+                    <small>Error Msg</small>  
+                </div>
+        
+                <div class="form-control1">
+                    <label for="password1">Enter Your Password</label>
+                    <input type="password" id="password1" placeholder="Enter Your Password">
+                    <i class="fa fa-check-circle"></i>
+                    <i class="fa fa-exclamation-circle"></i>
+                    <small>Error Msg</small>  
+                </div>
+        
+                <div class="form-control1">
+                    <label for="password2">Re-Enter Your Password</label>
+                    <input type="password" id="password2" placeholder="Re-Enter Your Password">
+                    <i class="fa fa-check-circle"></i>
+                    <i class="fa fa-exclamation-circle"></i>
+                    <small>Error Msg</small>  
+                </div>
+                <!-- <button type="submit">CONFIRM</button> -->
+                <a style="display: block; width: 95%; background-color:red; text-decoration: none; text-align: center; 
+                border-radius: 10px; color: white; padding: 10px;"
+                href="SendMessage.html">submit</a> 
+                </form>
             </div>
         </div>
     </section>
+    <script src="contact.js"></script>
 </body>
 </html>
