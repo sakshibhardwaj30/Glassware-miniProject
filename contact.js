@@ -44,18 +44,18 @@ function checkInput(){
         showSuccess(password11);
     }
 
-    const password22value=password22.value.trim();
-    if(password11value!=''){
-    if(password22value!=password11value){
-        showError(password22,"Password doesn't match above password");
-    }
-    else{
-        showSuccess(password22);
-    }
-}
-    else{
-        blankError(password22,"Password can't be blank");
-    }
+//     const password22value=password22.value.trim();
+//     if(password11value!=''){
+//     if(password22value!=password11value){
+//         showError(password22,"Password doesn't match above password");
+//     }
+//     else{
+//         showSuccess(password22);
+//     }
+// }
+//     else{
+//         blankError(password22,"Password can't be blank");
+//     }
 }
 
 function showError(input,message){
